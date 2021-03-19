@@ -1,16 +1,5 @@
 // start your server here
-const express = require('express')
+const server = require('./api/server.js');
 
-const server = express()
-
-server.use(express.json())
-
-const PORT = 5000
-
-server.get('/', (req, res) => {
-    res.json({ message: 'response with on'})
-})
-
-server.listen(PORT, () => {
-   console.log(`\n*** server running on Port ${PORT}***`) 
-})
+const port = process.env.PORT || 5000;
+server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
