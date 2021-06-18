@@ -114,11 +114,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between Relational Databases and SQL.
 
- SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system where as A relational database is a collection of data items with pre-defined relationships between them. These items are organized as a set of tables with columns and rows
+ SQL is  programming language for managing data held in a relational database management system where as A relational database is a collection of data items with pre-defined relationships between them. 
 
 2. Why do tables need a Primary Key?
 
-Each database table needs a primary key because it ensures row-level accessibility. ... The values that compose a primary key column are unique; no two values are the same
+We use primary key because it ensures row-level accessibility. ... The values that compose a primary key column are unique.
 
 3. What is the name given to a table column that references the Primary Key on another table?
 
