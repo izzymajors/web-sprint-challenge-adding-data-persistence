@@ -113,6 +113,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+
+ SQL is  programming language for managing data held in a relational database management system where as A relational database is a collection of data items with pre-defined relationships between them. 
+
 2. Why do tables need a Primary Key?
+
+We use primary key because it ensures row-level accessibility. ... The values that compose a primary key column are unique.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+That colum is known as  Foreign Key
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+in order to have a many to many table you will need to create a junction table
